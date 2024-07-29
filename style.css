@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px  20px;
+    position: sticky;
+    top: 0;
+}
+.leftNav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.centerNav{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.centerSearch{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 80%;
+    
+}
+.centerSearch>input{
+    padding:5px  ;
+    width:70% ;
+    background-color: black;
+    padding-left: 20px;
+    font-size: 16px;
+    border: 1px solid #303030;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.centerSearch>img{
+    background-color:#303030 ;
+    padding: 6px 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid #303030;
+}
+.mic{
+    background-color:#303030 ;
+    padding: 3px;
+    border-radius: 30px;
+    margin-left: 10px;
+
+}
+
+.center{
+    width: 20px;
+    height: 20px;
+    background-color:rgb(26, 26, 26); ;
+}
+
+.leftNav img:nth-child(2){
+    width: 80px;
+    height: 30px;
+}
+.rightNav{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.rightNav img:nth-child(3){
+    width:30px ;
+    border-radius: 50px;
+}
+
+.midBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height:65%;
+
+}
+.premium img{
+padding-top: 80px;
+padding-bottom: 40px;
+}
+
+.body-text1 h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    font-size: 30px;
+    color: rgb(55, 55, 55);
+
+}
+
+.bodyButton button{
+    background-color: rgb(49, 163, 255);
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    font-weight:700;
+
+}
+
+.body-text2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    font-size: 25px;
+    color: rgb(55, 55, 55);
+
+}
+
+.para{
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.para span{
+    color: rgb(72, 159, 231);
+    font-size: 15px;
+    font-family:serif;
+    font-weight: 500;
+    
+}
+
+.features{
+    background-color: black;
+    color:rgb(210, 221, 231);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    gap: 50px;
+    padding: 20px;
+
+
+}
+.firstfeatures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.bg1{
+    background-image: url(bg1.jpeg);
+    height: 60%;
+    background-size: cover;
+    padding-right: 800px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+  
+  .bg1ad>h2{
+    font-size: 45px;
+    font-weight: lighter;
+    color: rgb(196, 196, 196);
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .bg1ad>p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(147, 147, 147);
+    font-size: 18px;
+    line-height: 25px;
+  }
+.bg1ad{
+    color: white;
+}
+
+.bg3{
+    background-image: url(bg3.jpeg);
+    height: 60%;
+    background-size: cover;
+    padding-right: 800px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.bg4{
+    background-image: url(bg4.jpeg);
+    height: 60%;
+    background-size: cover;
+    padding-left: 400px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.faqs{
+    background-color: black;
+    color: rgb(172, 169, 169);
+    display: flex;
+  
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 80px;
+    
+}
+.faqDetails>h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+  
+}
+
+.ques>p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    padding-top: 10px;
+
+}
+
+.ques1>p{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.helpCenter>hr{
+    color: #2a2a2a;
+}
+hr{
+    color: #2a2a2a;
+    
+}
